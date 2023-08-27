@@ -28,6 +28,3 @@ jobs:
       uses: docker/bake-action@v2.3.0
       with:
         push: true
-        set: |
-          *.cache-from=type=gha
-          *.cache-to=type=gha,mode=max
